@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "allowJs": false,
+        "noFallthroughCasesInSwitch": true,
+        "sourceMap": false,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "build",
+        "resolveJsonModule": true,
+        "strict": true,
+        "skipLibCheck": true,
+    },
+    "include": [
+        "src/**/*",
+        "test/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "bolcom",
+  "version": "1.0.0",
+  "description": "High-throughput TypeScript scraper for Bol.com price data with proxy rotation, alerting via Telegram/Twilio, and integrated historical analytics.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc && node build/index.js",
+    "start": "node build/index.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "formdata-node": "^5.0.1",
+    "got": "^12.5.3",
+    "hpagent": "^1.2.0",
+    "humanize-duration": "^3.28.0",
+    "modern-async": "^1.1.3",
+    "node-html-parser": "^6.1.5",
+    "pg": "^8.10.0",
+    "tough-cookie": "^4.1.2",
+    "twilio": "^4.16.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.4",
+    "@types/pg": "^8.6.6",
+    "@types/winston": "^2.4.4",
+    "@types/yargs": "^17.0.24",
+    "pg-hstore": "^2.3.4",
+    "prettier": "^2.8.4",
+    "sequelize": "^6.31.0",
+    "typescript": "^4.9.5",
+    "yargs": "^17.7.2"
+  }
+}

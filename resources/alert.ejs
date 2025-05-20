@@ -1,0 +1,10 @@
+<b><a href="<%- url %>"><%- title %></a></b>
+
+Sales forecast: <% if (has_quantity_limit) { %><u>limited stock</u><% } else { %><b><%- forecast %> per month</b><% } %>
+
+Price change is € <%- absoluteDelta %> (<b><%- relativeDelta %>%</b>) from <b>€ <%- referencePrice %></b>
+
+<b>Product info</b>
+Current price is <b>€ <%- price %></b>
+EAN: <%- ean %>
+Rating: <%- rating %> (<%- score %>)

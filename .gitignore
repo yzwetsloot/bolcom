@@ -1,0 +1,10 @@
+node_modules/
+build/
+
+.env
+
+# python
+__pycache__/
+
+# logs
+*.log
